@@ -31,7 +31,7 @@ public class AuthDbConfig {
 			@Qualifier("authDataSource") DataSource dataSource) {
 		return builder
 				.dataSource(dataSource)
-				.packages("com.algaworks.multidb.model.auth")
+				.packages("com.example.multidb.model.auth")
 				.build();
 	}
 }

@@ -34,7 +34,7 @@ public class AppDbConfig {
 			@Qualifier("appDataSource") DataSource dataSource) {
 		return builder
 				.dataSource(dataSource)
-				.packages("com.algaworks.multidb.model.app")
+				.packages("com.example.multidb.model.app")
 				.build();
 	}
 	
